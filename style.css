@@ -1,0 +1,79 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    
+    background-color: rgb(165, 42, 42, 0.2);
+}
+
+header{
+   
+    background-image: url(https://i.pinimg.com/736x/e1/c2/3a/e1c23ac34847740f672717c89a62ae37.jpg);
+    height: 30vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 10px 15px, rgba(0, 0, 0, 0.22) 0px 10px 12px;
+    margin-bottom: 40px;
+}
+
+ .Search_box{
+   position: sticky;
+    background-color:  rgb(99, 18, 18);
+    top:80px;
+    left: 20%;
+    border-radius: 10px;
+    width: 60%;
+    height: 60px;
+    padding: 10px;
+    color: #f7f1f1;
+    font-size: large;
+    border: none;
+   
+    
+}
+.Search_box::placeholder{
+    color: #f7f1f1;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.image  {
+ 
+ width: 150px;
+ height: 150px;
+}
+.image h4{
+    text-align: center;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.Coffee-house{
+margin: 100px;
+ background-color: rgb(165, 42, 42, 0.3);
+ padding: 35px;
+ border-radius: 15px;
+ box-shadow: rgba(165, 42, 42, 0.3) 0px 54px 55px, rgba(165, 42, 42, 0.3) 0px -12px 30px, rgba(165, 42, 42, 0.3) 0px 4px 6px, rgba(165, 42, 42, 0.3) 0px 12px 13px, rgba(0165, 42, 42, 0.3) 0px -3px 5px;
+ color: rgba(165, 42, 42, 1);
+}
+
+.Coffee-house h4{
+    font-size: xx-large;
+}
+.Coffee-house p{
+    font-size: large;
+}
+
+li{
+    padding: 5px;
+}
